@@ -40,6 +40,19 @@ h6 {
 .portfolio{
   background-color: #000000;
 }
+.video-sago {
+  border: 1px solid #f4e6ba; /* Set border properties */
+  border-radius: 10px; /* Optional: Add border radius for rounded corners */
+  overflow: hidden; /* Ensure the border is applied even if the video size exceeds the container */
+}
+
+.hati2{
+
+  border: 2px solid #f4e6ba; /* Set border properties */
+  border-radius: 10px; /* Optional: Add border radius for rounded corners */
+  overflow: hidden; /* Ensure the border is applied even if the video size exceeds the container */
+  
+}
 
 /*--------------------------------------------------------------
 # Back to top button
