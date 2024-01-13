@@ -594,13 +594,14 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 48px;
   font-weight: bold;
   position: relative;
   margin-bottom: 30px;
   color: #ffffff;
   z-index: 2;
 }
+
 
 
 
@@ -681,6 +682,14 @@ section {
   padding: 60px 0;
   position: relative;
 }
+
+.about1 {
+  background:  url("../img/about2-bg.png") fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+  position: relative;
+}
+
 
 .about::before {
   content: "";
