@@ -38,7 +38,7 @@ h6 {
 }
 
 .portfolio{
-  background-color: #000000;
+  background-color: #FFA500;
 }
 .video-sago {
   border: 1px solid #f4e6ba; /* Set border properties */
@@ -64,7 +64,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 998;
-  background: #67b0d1;
+  background: #FFA500;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -73,13 +73,13 @@ h6 {
 
 .back-to-top i {
   font-size: 24px;
-  color: #0e0606;
+  color: #ffffff;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #86c0da;
-  color: #191010;
+  background: #FFA500;
+  color: #FFA500;
 }
 
 .back-to-top.active {
