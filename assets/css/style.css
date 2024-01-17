@@ -14,6 +14,83 @@ body {
   color: #fafae9;
 }
 
+.sales {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: -90px;
+}
+
+#video-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.zindex1 {
+  z-index: 1;
+}
+
+.overlay-container {
+  position: relative;
+  width: 300px; /* Set your desired width */
+  height: 200px; /* Set your desired height */
+  overflow: hidden;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.2050070028011205) 52%, rgba(0,0,0,0.2050070028011205) 57%, rgba(0,0,0,1) 97%);;
+}
+
+.overlay1{
+
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.2050070028011205) 52%, rgba(0,0,0,0.2050070028011205) 57%, rgba(0,0,0,1) 97%);;
+}
+
+#overlay1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.2050070028011205) 52%, rgba(0,0,0,0.2050070028011205) 57%, rgba(0,0,0,1) 97%);;
+ z-index: 2;
+}
+
+#overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.2050070028011205) 52%, rgba(0,0,0,0.2050070028011205) 57%, rgba(0,0,0,1) 97%);;
+}
+
+.overlay2 {
+  transform: scaleY(-1);}
+  
+.content {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
 a {
   text-decoration: none;
   color: #ffffff;
@@ -53,6 +130,8 @@ h6 {
   overflow: hidden; /* Ensure the border is applied even if the video size exceeds the container */
   
 }
+
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -107,6 +186,13 @@ h6 {
   background: rgba(103, 176, 209, 0.8);
 }
 
+.imgSago{
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
 #header.header-transparent {
   background: transparent;
 }
@@ -114,6 +200,18 @@ h6 {
 #header.header-scrolled {
   background: rgba(8, 12, 14, 0.9);
   padding: 12px;
+}
+
+.video-sago{
+  border: 1px solid #f4e6ba; 
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.hati2{
+  border: 2px solid #f4e6ba; 
+  border-radius: 10px;
+  overflow: hidden; 
 }
 
 #header .logo h1 {
@@ -526,12 +624,19 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 48px;
   font-weight: bold;
   position: relative;
   margin-bottom: 30px;
   color: #ffffff;
   z-index: 2;
+}
+
+
+
+
+.oursales {
+  z-index: 6;
 }
 
 .section-title h2::after {
@@ -608,14 +713,23 @@ section {
   position: relative;
 }
 
+.about1 {
+  background:  url("../img/about2-bg.png") fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+  position: relative;
+}
+
+
 .about::before {
   content: "";
-  position: absolute;
+  position:absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.2050070028011205) 52%, rgba(0,0,0,0.2050070028011205) 57%, rgba(0,0,0,1) 97%);;
   z-index: 9;
 }
 
@@ -637,6 +751,7 @@ section {
 
 .about .content p {
   margin-bottom: 30px;
+  color: #ffffff;
 }
 
 .about .content .about-btn {
@@ -1087,7 +1202,11 @@ section {
   font-style: italic;
   margin: 0 15px 15px 15px;
   padding: 20px;
+<<<<<<< HEAD
   background: #FFA500;
+=======
+  background: #ae7907;
+>>>>>>> 6b372e51a3697aff6bb46ff654f353dc8a785eac
   position: relative;
   margin-bottom: 35px;
   border-radius: 6px;
@@ -1208,12 +1327,13 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
+  background-color: #000000;
   padding-bottom: 80px;
 }
 
 .contact .info-box {
   color: #444444;
-  background: #fff;
+  background: #ffa600;;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
@@ -1224,7 +1344,7 @@ section {
   color: #67b0d1;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #f0f7fa;
+  border: 2px dotted #f18315;
 }
 
 .contact .info-box h3 {
@@ -1244,12 +1364,12 @@ section {
 .contact .php-email-form {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 30px;
-  background: #fff;
+  background: #f4b32990;
 }
 
 .contact .php-email-form .error-message {
   display: none;
-  color: #fff;
+  color: #ffffff;
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
@@ -1334,7 +1454,11 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
+<<<<<<< HEAD
   background: #FFA500;
+=======
+  background: #ffa600;
+>>>>>>> 6b372e51a3697aff6bb46ff654f353dc8a785eac
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
