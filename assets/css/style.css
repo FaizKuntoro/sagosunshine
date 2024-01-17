@@ -738,6 +738,7 @@ section {
 
 .about .content p {
   margin-bottom: 30px;
+  color: #ffffff;
 }
 
 .about .content .about-btn {
@@ -1315,7 +1316,7 @@ section {
 
 .contact .info-box {
   color: #444444;
-  background: #c96a16;
+  background: #ffa600;;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
@@ -1436,7 +1437,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #FFA500;
+  background: #ffa600;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
